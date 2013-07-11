@@ -1,4 +1,4 @@
-fs=require('fs');
+var fs=require('fs');
 var inputFile='index.html';
 
 fs.readFileSync(inputFile, 'utf-8', function(err,data){
