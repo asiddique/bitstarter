@@ -1,5 +1,5 @@
 fs=require('fs');
-var inputFile='~/bitstarter/index.html';
+var inputFile='/index.html';
 
 fs.readFileSync(inputFile, 'utf-8', function(err,data){
  var strResult=data;
