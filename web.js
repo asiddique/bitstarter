@@ -1,7 +1,8 @@
+#!/usr/bin/env node
 var fs=require('fs');
-var inputFile='index.html';
+var inputFile="index.html";
 
-fs.readFileSync(inputFile, 'utf-8', function(err,data){
+fs.readFileSync(inputFile, "utf-8", function(err,data){
  var strResult=data;
  var express = require('express');
  var app = express.createServer(express.logger());
